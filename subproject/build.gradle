@@ -1,0 +1,11 @@
+plugins {
+    id 'java-library'
+    id 'fabric-loom'
+}
+
+dependencies {
+    //to change the versions see the gradle.properties file
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}"
+//    include(group: "net.fabricmc.fabric-api", name: "fabric-api", version: "${project.fabric_version}")
+}
